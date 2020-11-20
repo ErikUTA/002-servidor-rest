@@ -11,9 +11,9 @@ app.get('/', function (req, res) {
   res.send('<h1>Bienvenido a mi servidor REST</h1>')
 });
 
-app.get('/usuario', function (req, res) {
+/*app.get('/usuario', function (req, res) {
   res.send('<h1>Bienvenido a USUARIOS</h1>')
-});
+});*/
 
 app.get('/saludo', function (req, res) {
   res.json({
